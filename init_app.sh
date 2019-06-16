@@ -74,6 +74,6 @@ git add .
 git commit -m "initial commit for $NAME"
 git log -n 1
 
-echo "### DONE ###"
-echo " >>> You can run 'make' now to build and run image loacally!"
+echo "### DONE SUCESSFULLY! ###"
+echo " >>> You can execute command 'make' now to build and run image loacally!"
 
