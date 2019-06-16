@@ -13,9 +13,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-    private final static String base_package_name = "alex";
-    private final static String app_name = "alex";
-    private final static String app_description = "alex description";
+    private final static String base_package_name = "myapp";
+    private final static String app_name = "myapp";
+    private final static String app_description = "myapp description";
 
     @Bean
     public Docket api() {
