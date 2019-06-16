@@ -16,6 +16,6 @@ public class DefaultController {
 
     @GetMapping("/healthcheck")
     public ResponseEntity<String> healthcheck() {
-        return new ResponseEntity<>("Hello, I'm alive!", OK);
+        return new ResponseEntity<>("Hello, this is myapp running!", OK);
     }
 }
