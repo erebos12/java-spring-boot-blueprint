@@ -1,3 +1,11 @@
+# Prerequisites
+
+* docker
+* git
+* make
+
+Compatible for Linux and Mac.
+
 # Blueprint for JAVA Spring Boot Application
 
 Running SpringBoot app, including gradle and docker build, with your own naming and initial git commit. No need to code anything for that.
