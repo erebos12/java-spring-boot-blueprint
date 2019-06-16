@@ -10,7 +10,7 @@ Compatible for Linux and Mac.
 
 Running SpringBoot app, including gradle and docker build, with your own naming and initial git commit. No need to code anything for that.
 
-It also includes Swagger UI for testing and using the app (call http://locahost:8080 in your browser for that).
+It also includes Swagger UI for testing and using the app after app is started (call http://locahost:8080 in your browser for that).
 
 All is wrapped in docker, so that you don't need to install anything (except list of prerequisites ;-) ).
 
