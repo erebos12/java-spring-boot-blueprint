@@ -13,7 +13,7 @@ RUN gradle build
 FROM openjdk:11-jre-slim
 LABEL maintainer="erebos <erebos12@web.de>"
 
-ENV ARTIFACT_NAME alex-0.0.1-SNAPSHOT.jar
+ENV ARTIFACT_NAME myapp-0.0.1-SNAPSHOT.jar
 
 WORKDIR /usr/app/
 COPY --from=build /home/gradle/app/build/libs/$ARTIFACT_NAME ./$ARTIFACT_NAME
