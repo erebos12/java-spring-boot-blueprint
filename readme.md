@@ -12,7 +12,7 @@ Running SpringBoot app, including gradle and docker build, with your own naming 
 
 It also includes Swagger UI for testing and using the app (call http://locahost:8080 in your browser for that).
 
-All is wrapped in docker, so that you don't need to install anything (except docker and git ;-) ).
+All is wrapped in docker, so that you don't need to install anything (except list of prerequisites ;-) ).
 
 **Clone and run script:**
 
