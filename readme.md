@@ -5,5 +5,7 @@
 ```
     $> ./init_app.sh
 ```
-    
-This script will initialize Java app with naming and initial git commit.
+
+What is this script doing?
+1. Replaces all required string in the files with your name
+2. Creates an initial git commit for your app
