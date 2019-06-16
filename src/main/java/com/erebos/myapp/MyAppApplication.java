@@ -1,4 +1,4 @@
-package com.erebos.alex;
+package com.erebos.myapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

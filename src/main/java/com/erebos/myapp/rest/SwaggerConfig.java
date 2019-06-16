@@ -1,4 +1,4 @@
-package com.erebos.alex.rest;
+package com.erebos.myapp.rest;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
