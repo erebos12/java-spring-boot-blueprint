@@ -17,19 +17,28 @@ NAME=$answer
 
 file_list=(Makefile 
            Dockerfile 
-           ops/variables/production.yaml 
-           ops/variables/staging.yaml
            build.gradle
            src/main/java/com/erebos/myapp/rest/DefaultController.java
            src/main/java/com/erebos/myapp/MyAppApplication.java
            src/main/java/com/erebos/myapp/rest/SwaggerConfig.java
            settings.gradle)
 
+check_if_file_exists()
+{
+    file=$1
+    if [ ! -f $file ]; then
+       echo "File '$file' does not exit!"
+       exit 1
+    fi
+}
+
+
 replace_string_in_file()
 {
     FILE=$1
     STRING_REPLACE=$2
     ORIGIN_STRING=$3
+    check_if_file_exists $FILE
     sed "s/$ORIGIN_STRING/$STRING_REPLACE/g" $FILE > $FILE.new
     mv $FILE.new $FILE && rm -rf $FILE.new
 }
