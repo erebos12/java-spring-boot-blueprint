@@ -61,6 +61,7 @@ mv src/main/java/com/erebos/myapp/MyAppApplication.java src/main/java/com/erebos
 
 # rename main class
 replace_string_in_file src/main/java/com/erebos/myapp/${NAME_IN_UPPERCASE}Application.java $NAME_IN_UPPERCASE MyApp
+replace_string_in_file src/main/java/com/erebos/myapp/rest/DefaultController.java $NAME_IN_UPPERCASE MyApp
 
 # rename  folder
 mv src/main/java/com/erebos/myapp src/main/java/com/erebos/$NAME
