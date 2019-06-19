@@ -22,4 +22,4 @@ All is wrapped in docker, so that you don't need to install anything (except lis
 
 What is this script doing?
 1. Replaces all required strings in the files/folders with your name
-2. Creates an initial git commit for your app
+2. Creates an initial git commit for your app (and removes .git of blueprint repo)
